@@ -22,7 +22,8 @@ function setup(){
     pig1 = new Pig(810,350,70,70);
     bird = new Bird(100,100,70,70);
     pig2 = new Pig(810,220,70,70);
-    ground = new Ground(600,390,1600,20)
+    ground = new Ground(600,390,1600,20); 
+    platform = new Ground(150,305,300,170) ;
 }
 
 function draw(){
@@ -40,5 +41,6 @@ function draw(){
     pig1.display();
     pig2.display();
     bird.display();
+    platform.display();
    ground.display();
 }
